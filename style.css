@@ -212,8 +212,6 @@ a.yellow,
   line-height: 37.42px;
 }
 
-
-
 .four_divs h3 {
   margin-bottom: 8.5px;
 }
@@ -448,10 +446,11 @@ a.yellow,
   color: #959595;
   background-color: white;
   width: 330px;
-  height: 260px;
+  height: 277px;
   margin-top: -132px;
   margin-left: 46px;
   position: relative;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .background h4 {
@@ -467,15 +466,13 @@ a.yellow,
 }
 
 .from {
-  width: 190.43px;
-  height: 40px;
   margin-left: 47px;
-  font-size: 15px;
   line-height: 20.79px;
   background-color: #e3b873;
   border-color: #e3b873;
   border-style: solid;
   color: #ffffff;
+  position: relative;
 }
 
 .whiteblack {
@@ -848,7 +845,9 @@ a.yellow,
   display: block;
   margin: auto;
 }
-
+.last {
+  position: relative;
+}
 /* .last {
     padding-bottom: 64px;
     background: url('img/black.svg') center/100%,
@@ -920,15 +919,11 @@ ul .american {
   }
 
   .from {
-    background-color: #e3b873;
-    border-color: #e3b873;
-    border-style: solid;
     width: 228px;
     height: 54px;
-    margin-left: 47px;
     font-size: 18px;
     line-height: 25px;
-    color: #ffffff;
+    margin-top: -28px;
   }
   .hidden_background {
     display: flex;
@@ -981,10 +976,6 @@ ul .american {
     margin-bottom: 19px;
   }
 
-
-
-
-  
   .centerleft {
     max-width: 1170px;
     margin-right: 18px;
@@ -1049,12 +1040,11 @@ ul .american {
     margin-bottom: 26px;
   }
 
-
   .buttons > button {
     width: 340px;
     height: 51px;
     margin-top: 0px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
   }
   .buttons {
     margin-top: 50px;
@@ -1127,8 +1117,7 @@ ul .american {
     margin-right: 15px;
   }
 
-
-/* 
+  /* 
   .four_divs .h4 {
     margin-bottom: 8px;
   }
@@ -1146,11 +1135,17 @@ ul .american {
     flex-wrap: wrap;
     max-width: 404px;
     margin-top: 35px;
-    margin-bottom: 31px;
+    margin-bottom: 26px;
     width: fit-content;
     margin-left: 3px;
   }
 
+  .camera p {
+    font-size: 22px;
+  }
+  .camera_img {
+    margin-top: 8px;
+  }
   .h4 {
     font-size: 14px;
     text-align: left;
@@ -1187,9 +1182,10 @@ ul .american {
   .from {
     width: 190.43px;
     height: 40px;
-    margin-left: 47px;
     font-size: 15px;
     line-height: 20.79px;
+    margin-top: -20px;
+    margin-bottom: 18px;
   }
   .hidden_background {
     display: flex;
@@ -1199,7 +1195,7 @@ ul .american {
     align-items: center;
     height: 56vw;
     background: url("img/image_3.jpg") center/100% 100% no-repeat;
-    margin-top: 40px;
+    margin-top: 46px;
   }
 
   .hidden_play {
@@ -1225,6 +1221,10 @@ ul .american {
     margin-right: 17px;
   }
 
+  .we_realize {
+    padding-bottom: 121px;
+  }
+
   .form1div {
     display: flex;
     justify-content: center;
@@ -1233,7 +1233,7 @@ ul .american {
   .form1 {
     width: auto;
     display: flex;
-    margin-top: 61px;
+    margin-top: 75px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -1246,6 +1246,7 @@ ul .american {
     width: 340px;
     height: 51px;
     margin-bottom: -26px;
+    margin-left: 0;
   }
 
   .blacklabel {
@@ -1262,9 +1263,10 @@ ul .american {
     margin-left: 0;
     background-color: #181818;
     color: #ffffff;
+    margin-bottom: 0;
   }
   .hr4 {
-    margin-bottom: 63px;
+    margin-bottom: 66px;
   }
 
   .hr1 {
@@ -1319,9 +1321,9 @@ ul .american {
 
   .types {
     margin-top: 84px;
-    margin-bottom: 266px;
     background-color: #ffffff;
     position: relative;
+    margin-bottom: 36px;
   }
 
   .three_divs {
@@ -1343,21 +1345,24 @@ ul .american {
   .background {
     color: #959595;
     width: 270px;
-    height: 241px;
-    margin-top: -132px;
+    height: 229px;
+    margin-top: -145px;
     margin-left: 0;
     position: relative;
+    padding-top: 0;
   }
+
   .three_divs button {
     margin-left: 0;
   }
 
   .three_divs .h4 {
     font-size: 15px;
+    padding-top: 20px;
   }
   .background li {
     margin-bottom: 5px;
-    margin-left: 35px;
+    margin-left: 40px;
     padding-left: 0px;
   }
 
@@ -1376,8 +1381,9 @@ ul .american {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 70vw;
+    height: 65vw;
     width: 90vw;
+    margin-top: -121px;
     max-height: 770px;
     background: url("img/mini_interior.jpg") center / auto 100% no-repeat;
   }
@@ -1391,12 +1397,18 @@ ul .american {
     margin-left: 0px;
     margin-right: 0;
   }
+
+  .form3 button {
+    width: 340px;
+    margin-left: 18px;
+    margin-bottom: 45px;
+  }
   .black_up p {
     color: #ffffff;
     font-size: 20px;
     text-align: center;
-    margin-top: 52px;
-    margin-bottom: 52px;
+    margin-top: 50px;
+    margin-bottom: 54px;
   }
 
   .black_up {
@@ -1405,7 +1417,9 @@ ul .american {
     width: auto;
   }
   .pictureleft h2 {
-    margin-bottom: 22px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 30.49px;
   }
   .black_flex {
     margin-left: 0;
@@ -1507,9 +1521,10 @@ ul .american {
   }
 
   .form3 .first-checkbox {
-    margin-left: 18px;
+    margin-left: 0;
     margin-top: 0;
     align-self: flex-start;
+    margin-bottom: 18px;
   }
 
   .text {
@@ -1521,7 +1536,10 @@ ul .american {
   .map_mini {
     width: 90vw;
   }
-
+  .hr3 {
+    width: 90vw;
+    margin-bottom: 16px;
+  }
   .last {
     padding-bottom: 0;
     background-color: #181818;
@@ -1536,10 +1554,20 @@ ul .american {
   .iast_mini p {
     text-align: center;
     margin-top: 41.79px;
+    font-size: 18px;
+    line-height: 24.95px;
   }
 
   .pics {
     margin-bottom: 49px;
     margin-top: 23.65px;
+  }
+  .pics img {
+    width: 39px;
+  }
+
+  .mail {
+    margin-right: 17px;
+    margin-left: 0;
   }
 }
