@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="index.js"></script>
   </head>
   <body id="home">
     <header class="header">
@@ -88,18 +89,18 @@
               <div class="four_divs">
                 <div>
                   <h4 class="yeseva yellow h4">CITY:</h4>
-                  <p>
+                  <p class="city">
                     Rostov-on-Don<br />
                     LCD admiral
                   </p>
                 </div>
                 <div>
                   <h4 class="yeseva yellow h4">APARTMENT AREA:</h4>
-                  <p>81 m2</p>
+                  <p class="area">81 m2</p>
                 </div>
                 <div>
                   <h4 class="yeseva yellow h4">REPAIR TIME:</h4>
-                  <p>3.5 months</p>
+                  <p class="time">3.5 months</p>
                 </div>
                 <div>
                   <h4 class="yeseva yellow h4">REPAIR COST:</h4>
@@ -107,20 +108,30 @@
                 </div>
               </div>
               <div class="arrows none">
-                <img src="img/arrows.svg" />
+                <div class="arrowLeft">
+                  <img src="img/ArrowLeft.svg" />
+                </div>
+                <div class="dots">
+                  <div class="dot1 active"></div>
+                  <div class="dot2 unactive"></div>
+                  <div class="dot3 unactive"></div>
+                </div>
+                <div class="arrowRight">
+                  <img src="img/ArrowRight.svg" />
+                </div>
               </div>
             </div>
             <div class="completed_right none">
               <div>
                 <ul class="cities1 none">
-                  <li class="yeseva yellow underline">
+                  <li class="yeseva yellow underline rostov1Link">
                     ROSTOV-ON-DON, ADMIRAL
                   </li>
-                  <li class="yeseva">SOCHI THIEVES</li>
-                  <li class="yeseva">ROSTOV-ON-DON PATRIOTIC</li>
+                  <li class="yeseva sochiLink">SOCHI THIEVES</li>
+                  <li class="yeseva rostov2Link">ROSTOV-ON-DON PATRIOTIC</li>
                 </ul>
               </div>
-              <img src="img/image 2.1.jpg" alt="interior" class="none" />
+              <div class="slider_photos"></div>
             </div>
           </div>
         </div>
